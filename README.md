@@ -55,4 +55,29 @@ $ python app.py
 ```
 
 By now you should see the images below by hitting your localhost:5000
+![im1](https://github.com/Rowing0914/Heroku_training_flask/blob/master/images/im1.png)
 
+then, let's move on to deploy it!
+
+```bash
+# this will assign the domain_name to your app
+$ heroku create
+```
+![im3](https://github.com/Rowing0914/Heroku_training_flask/blob/master/images/im3.png)
+
+```bash
+# deploy!!
+$ git push heroku master
+```
+
+![im4](https://github.com/Rowing0914/Heroku_training_flask/blob/master/images/im4.png)
+
+```bash
+$ heroku open
+```
+
+DONE!
+
+![im2](https://github.com/Rowing0914/Heroku_training_flask/blob/master/images/im2.png)
+
+Thank you!
